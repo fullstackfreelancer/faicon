@@ -9,21 +9,3 @@ page{
         tx_faicon = {$plugin.tx_faicon.settings.cssfile}
     }
 }
-
-# Module configuration
-module.tx_faicon {
-    persistence {
-        storagePid = {$module.tx_faicon.persistence.storagePid}
-    }
-    view {
-        templateRootPaths.0 = EXT:faicon/Resources/Private/Backend/Templates/
-        templateRootPaths.1 = {$module.tx_faicon.view.templateRootPath}
-        partialRootPaths.0 = EXT:faicon/Resources/Private/Backend/Partials/
-        partialRootPaths.1 = {$module.tx_faicon.view.partialRootPath}
-        layoutRootPaths.0 = EXT:faicon/Resources/Private/Backend/Layouts/
-        layoutRootPaths.1 = {$module.tx_faicon.view.layoutRootPath}
-    }
-    settings{
-
-    }
-}
