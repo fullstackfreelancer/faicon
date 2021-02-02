@@ -1,4 +1,4 @@
-# `1.0.0` Font Awesome Icons (faicon)
+# faicon - TYPO3 Extension `VERSION 1.0.0`
 
 This extension provides Font Awesome Icons for TYPO3 pages.
 
