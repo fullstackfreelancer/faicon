@@ -1,6 +1,6 @@
 # `1.0.0` Font Awesome Icons (faicon)
 
-This extension provides a new content element of type "Timeline" (ce_timeline) that contains inline records of different timeline entries. Please note that this is not a plugin and there are no records visible in any list view by default. Feel free to use the code or the extension as a basis for your own stuff.
+This extension provides Font Awesome Icons for TYPO3 pages.
 
 ## Features:
 
