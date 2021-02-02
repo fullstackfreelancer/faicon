@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2020-12-12T12:03:24Z"
+          product-name="faicon">
+        <header/>
+        <body>
+            <trans-unit id="tx_faicon_icon">
+                <source>Using free web version 5.0.6</source>
+            </trans-unit>
+            <trans-unit id="tx_faicon_icon_pallette">
+                <source>Font Awesome Icon</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
