@@ -1,0 +1,4 @@
+page.40 = TEXT
+page.40{
+    value = Hello !!!
+}
