@@ -1,6 +1,6 @@
 # faicon - TYPO3 Extension `VERSION 1.1.1`
 
-This extension provides Font Awesome Icons for TYPO3 pages.
+This extension provides Font Awesome Icons for the TYPO3 page settings in the backend, and Icons for the Bootstrap Package in the frontend.
 
 ## Features:
 
