@@ -7,7 +7,7 @@ call_user_func(function()
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         'faicon',
         'Configuration/TypoScript/BootstrapPackage',
-        'Faicon: Bootstrap Package'
+        'Faicon: Icons for Bootstrap Package'
     );
 
 });
