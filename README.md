@@ -58,10 +58,11 @@ Example of using the icon field in a menu.
 </a>
 ```
 
-## Support development of this TYPO3-Extension
+## Support Development
 
 I believe in the power of open source and free software. I also believe in you and your projects.
 If you like my work and you want to ensure further development, please support it here:
+
 - https://paypal.me/typo3freelancer
 
 ## Support & Service
@@ -71,7 +72,9 @@ Don't hesitate to send a message: https://simon-koehler.com/en/contact
 
 ## Do you want to learn TYPO3? Here's what you need:
 Video Training TYPO3 9 LTS (German language)
+
 - https://www.digistore24.com/redir/246076/GOCHILLA/
 
 ## Hire Simon Köhler as a TYPO3 Freelancer
+
 - https://simon-koehler.com/en

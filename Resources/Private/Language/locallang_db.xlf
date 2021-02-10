@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="messages" date="2020-12-12T12:03:24Z"
-          product-name="faicon">
+    <file source-language="en" datatype="plaintext" original="messages" date="2021-2-1T12:03:24Z" product-name="faicon">
         <header/>
         <body>
             <trans-unit id="tx_faicon_icon">

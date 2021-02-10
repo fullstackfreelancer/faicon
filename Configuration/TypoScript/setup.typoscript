@@ -1,7 +1,6 @@
 plugin.tx_faicon{
     settings{
         jsonfile = {$plugin.tx_faicon.settings.jsonfile}
-        enableBootstrapPackage = {$plugin.tx_faicon.settings.enableBootstrapPackage}
     }
 }
 
