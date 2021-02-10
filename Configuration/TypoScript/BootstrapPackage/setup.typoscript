@@ -1,4 +1,7 @@
 page{
+    includeCSS{
+        tx_faicon_bootstrap_package = EXT:faicon/Resources/Public/BootstrapPackage/Css/master.css
+    }
     10{
         partialRootPaths{
             5 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/Page/
