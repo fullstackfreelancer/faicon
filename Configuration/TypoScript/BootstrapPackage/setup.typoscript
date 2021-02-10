@@ -1,7 +1,7 @@
 page{
     10{
         partialRootPaths{
-            5 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/
+            5 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/Page/
         }
     }
 }
