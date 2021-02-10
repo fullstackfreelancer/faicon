@@ -19,6 +19,27 @@ But clear your caches after installing.
 ### Using faicon with the Bootstrap Package
 
 You can simply include the static TypoScript "Faicon: Icons for Bootstrap Package" into your root template to make faicon overwrite the template of the Bootstrap Package.
+The extension overwrites the main navigation template by adding a new partial root path like this:
+
+```
+page{
+    10{
+        partialRootPaths{
+            0 = EXT:bootstrap_package/Resources/Private/Partials/Page/
+            1 = EXT:bootstrap_package/Resources/Private/Partials/Page/
+            5 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/Page/ (new path by faicon)
+        }
+    }
+}
+```
+
+If you want to change the order of the paths, or the sequential number is already used by another extension, you can do that by adding a few lines in your setup:
+
+```
+// Adding a new path (use any random number that is higher than the last existing one)
+page.10.partialRootPaths.765 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/Page/
+
+```
 
 ### Example Usage in your Fluid-Templates
 
