@@ -33,11 +33,15 @@ page{
 }
 ```
 
-If you want to change the order of the paths, or the sequential number is already used by another extension, you can do that by adding a few lines in your setup:
+If you want to change the order of the paths, or the sequential number is already used by another extension, you can do that by adding a few lines in your TypoScript setup:
 
 ```
 // Adding a new path (use any random number that is higher than the last existing one)
 page.10.partialRootPaths.765 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/Page/
+
+// Alternative: Clear the entry and set a new path
+page.10.partialRootPaths.5 >
+page.10.partialRootPaths.5 = mypath/myfolder/
 
 ```
 
