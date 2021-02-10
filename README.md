@@ -1,9 +1,10 @@
-# faicon - TYPO3 Extension `VERSION 1.0.0`
+# faicon - TYPO3 Extension `VERSION 1.1.1`
 
 This extension provides Font Awesome Icons for TYPO3 pages.
 
 ## Features:
 
+- Provides menu icons for the TYPO3 Bootstrap Package
 - Adds a FontAwesome Icon-Selector to the page properties
 
 ## Installation
@@ -15,7 +16,11 @@ Install the extension by downloading it in the extension manager or on https://e
 You don't need to configure anything to get this extension running.
 But clear your caches after installing.
 
-### Example Usage
+### Using faicon with the Bootstrap Package
+
+You can simply include the static TypoScript "Faicon: Icons for Bootstrap Package" into your root template to make faicon overwrite the template of the Bootstrap Package.
+
+### Example Usage in your Fluid-Templates
 
 Example of using the icon field in a menu.
 
