@@ -5,7 +5,10 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - TypoScript and Fluid partials for the TYPO3 Bootstrap Package
+- Added CHANGELOG
 
+### Updated
+- README file: https://bitbucket.org/typo3freelancer/faicon/src/master/README.md
 
 ## [1.0.0] - 2021-02-01
 
