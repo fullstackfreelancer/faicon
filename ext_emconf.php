@@ -6,7 +6,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Font Awesome Icon',
-    'description' => 'Adds a Font Awesome icon selector to every page',
+    'description' => 'Provides Font Awesome Icons for the TYPO3 page settings in the backend, and Icons for the Bootstrap Package in the frontend.',
     'category' => 'plugin',
     'author' => 'Simon Köhler',
     'author_email' => 'info@simon-koehler.com',
@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = [
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.1.1',
+    'version' => '1.1.0',
     'constraints' => [
         'depends' => [
             'typo3' => '8.7.0-10.4.99',

@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [1.1.1] - 2021-02-10
+## [1.1.0] - 2021-02-10
 
 ### Added
 - TypoScript and Fluid partials for the TYPO3 Bootstrap Package
