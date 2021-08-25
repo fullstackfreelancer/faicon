@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2021-08-24
+- TYPO3 11.3 support
+- Font Awesome update
+
 ## [1.1.0] - 2021-02-10
 
 ### Added
