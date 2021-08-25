@@ -1,8 +1,8 @@
 plugin.tx_faicon{
     settings{
         # cat=FaIcon; type=string; label=Path to Font-Awesome's JSON file: Relative path from your root directory. Note the shortcut EXT: will not work here!
-        jsonfile = typo3conf/ext/faicon/Resources/Public/Libs/fontawesome-free-5.15.2-web/metadata/icons.json
+        jsonfile = typo3conf/ext/faicon/Resources/Public/Libs/fontawesome-free-5.15.3-web/metadata/icons.json
         # cat=FaIcon; type=string; label=Path to Font-Awesome's CSS file: Relative path from your root directory.
-        cssfile = EXT:faicon/Resources/Public/Libs/fontawesome-free-5.15.2-web/css/all.min.css
+        cssfile = EXT:faicon/Resources/Public/Libs/fontawesome-free-5.15.3-web/css/all.min.css
     }
 }
