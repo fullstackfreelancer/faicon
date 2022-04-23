@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2022-04-23
+- TYPO3 11.5 LTS support
+- Font Awesome update to 5.15.3
+
 ## [1.2.0] - 2021-08-24
 - TYPO3 11.3 support
 - Font Awesome update to 5.15.3
