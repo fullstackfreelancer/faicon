@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2023-11-09
+- TYPO3 12.4 support
+- Changed composer path to ""
+- Font Awesome update to 6.5.1-web
+- Bootstrap Package Templates Update to latest version 14.0
+- Moved repository from Bitbucket to GitHub
+
 ## [1.3.0] - 2022-04-23
 - TYPO3 11.5 LTS support
 - Font Awesome update to 6.1.1-web
