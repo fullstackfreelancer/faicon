@@ -8,11 +8,6 @@ Are you using the Bootstrap Package for TYPO3 and want to use FontAwesome Icons 
 - Provides a Configuration for the latest Bootstrap Package, to add Icons to the Main Navigation
 - Current version of Font Awesome: 6.5.1
 
-## Features:
-
-- Provides menu icons for the TYPO3 Bootstrap Package
-- Adds a FontAwesome Icon-Selector to the page properties
-
 ## Installation
 
 Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/faicon/.
