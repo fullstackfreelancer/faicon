@@ -1,10 +1,10 @@
 <?php
-defined('TYPO3_MODE') or die();
+defined('TYPO3') or die();
 
-$configurationManager = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Configuration\\BackendConfigurationManager');
-$extbaseFrameworkConfiguration = $configurationManager->getTypoScriptSetup();
+// Settings the file manually because of conflicts with old functionality and TYPO3 v12
+$items = 'typo3conf/ext/faicon/Resources/Public/Libs/fontawesome-free-6.5.1-web/metadata/icons.json';
 
-// Configure new fields:
+//Configure new fields:
 $fields = [
     'tx_faicon_icon' => [
         'label' => 'LLL:EXT:faicon/Resources/Private/Language/locallang_db.xlf:tx_faicon_icon',
@@ -12,7 +12,7 @@ $fields = [
         'config' => [
             'type' => 'select',
             'renderType' => 'selectMultipleSideBySide',
-            'items' => \SIMONKOEHLER\Faicon\Utility\IconUtility::iconArray($extbaseFrameworkConfiguration['plugin.']['tx_faicon.']['settings.']['jsonfile']),
+            'items' => \SIMONKOEHLER\Faicon\Utility\IconUtility::iconArray($items),
             'maxitems' => 1
         ],
     ]
