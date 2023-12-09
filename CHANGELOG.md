@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [2.0.0] - 2023-11-09
 - TYPO3 12.4 support
-- Changed composer path to ""
+- Changed composer path to "fullstackfreelancer/faicon"
 - Font Awesome update to 6.5.1-web
 - Bootstrap Package Templates Update to latest version 14.0
 - Moved repository from Bitbucket to GitHub
