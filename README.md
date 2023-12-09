@@ -1,8 +1,12 @@
-# faicon - TYPO3 Extension `VERSION 2.0.0`
+# ![](https://github.com/fullstackfreelancer/faicon/blob/master/ext_icon.png?raw=true) Font Awesome Icon Plugin for TYPO3 CMS (faicon)
 
-Current version of Font Awesome: 6.5.1
+## What is Font Awesome Icon (faicon) for TYPO3?
+Are you using the Bootstrap Package for TYPO3 and want to use FontAwesome Icons instead of the included icons? Then this extension is for you, because that's what it was made for. After installation, the extension provides you with the latest version of FontAwesome Icons, selectable in the page properties of each page. Modified main navigation templates are included for the bootstrap package. But of course you can also use the extension in combination with your own themes or extensions. All templates and paths are easy to change.
 
-This extension provides Font Awesome Icons for the TYPO3 page settings in the backend, and Icons for the Bootstrap Package in the frontend.
+## Features
+- Adds a new field to the page properties that allows editors to select a FontAwesome Icon from a list
+- Provides a Configuration for the latest Bootstrap Package, to add Icons to the Main Navigation
+- Current version of Font Awesome: 6.5.1
 
 ## Features:
 
