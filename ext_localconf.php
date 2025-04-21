@@ -17,15 +17,5 @@ call_user_func(
             );
         }
 
-        // Add TypoScript Constants
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptConstants(
-            "@import 'EXT:faicon/Configuration/TypoScript/constants.typoscript'"
-        );
-
-        // Add TypoScript Setup
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup(
-            "@import 'EXT:faicon/Configuration/TypoScript/setup.typoscript'"
-        );
-
     }
 );
