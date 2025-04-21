@@ -1,4 +1,4 @@
-# ![](https://github.com/fullstackfreelancer/faicon/blob/master/ext_icon.png?raw=true) Font Awesome Icon Plugin for TYPO3 CMS (faicon)
+# ![](https://github.com/fullstackfreelancer/faicon/blob/master/ext_icon.png?raw=true) Font Awesome Integration for TYPO3 CMS (faicon)
 
 ## What is Font Awesome Icon (faicon) for TYPO3?
 
