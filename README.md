@@ -7,7 +7,6 @@ Faicon provides the latest version of FontAwesome for your TYPO3 project, includ
 ## Features
 
 - Adds a new field to the page properties that allows editors to select a FontAwesome Icon from a list
-- Provides a Configuration for the latest Bootstrap Package, to add Icons to the Main Navigation
 - Current version of Font Awesome: 6.7.2
 
 ## Installation
