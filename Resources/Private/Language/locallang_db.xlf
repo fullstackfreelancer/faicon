@@ -4,7 +4,7 @@
         <header/>
         <body>
             <trans-unit id="tx_faicon_icon">
-                <source>Using free version 6.1.1-web</source>
+                <source>Using free version 6.7.2-web</source>
             </trans-unit>
             <trans-unit id="tx_faicon_icon_pallette">
                 <source>Font Awesome Icon</source>
