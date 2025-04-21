@@ -26,7 +26,7 @@ You can integrate the configuration into your website in two ways:
 Example of using the icon field in a menu.
 (Assuming your menu entry has the variable name "{menu}")
 
-```
+```html
 <a class="nav-link">
    <f:if condition="{menu.data.tx_faicon_icon}">
        <i class="{menu.data.tx_faicon_icon}"></i>
