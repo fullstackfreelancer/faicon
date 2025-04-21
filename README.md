@@ -1,12 +1,14 @@
 # ![](https://github.com/fullstackfreelancer/faicon/blob/master/ext_icon.png?raw=true) Font Awesome Icon Plugin for TYPO3 CMS (faicon)
 
 ## What is Font Awesome Icon (faicon) for TYPO3?
-Are you using the Bootstrap Package for TYPO3 and want to use FontAwesome Icons instead of the included icons? Then this extension is for you, because that's what it was made for. After installation, the extension provides you with the latest version of FontAwesome Icons, selectable in the page properties of each page. Modified main navigation templates are included for the bootstrap package. But of course you can also use the extension in combination with your own themes or extensions. All templates and paths are easy to change.
+
+Faicon provides the latest version of FontAwesome for your TYPO3 project, including icon files and CSS. If you install this extension, you no longer need a CDN link to use FontAwesome (free web). Faicon provides a new field in the page properties where you can assign a FontAwesome icon to your page via a dropdown menu. You can then use the icon in your Fluid template or menu in various ways. Read on to learn how.
 
 ## Features
+
 - Adds a new field to the page properties that allows editors to select a FontAwesome Icon from a list
 - Provides a Configuration for the latest Bootstrap Package, to add Icons to the Main Navigation
-- Current version of Font Awesome: 6.5.1
+- Current version of Font Awesome: 6.7.2
 
 ## Installation
 
@@ -14,37 +16,10 @@ Install the extension by downloading it in the extension manager or on https://e
 
 ## Basic configuration
 
-You don't need to configure anything to get this extension running.
-But clear your caches after installing.
+You can integrate the configuration into your website in two ways:
 
-### Using faicon with the Bootstrap Package
-
-You can simply include the static TypoScript "Faicon: Icons for Bootstrap Package" into your root template to make faicon overwrite the template of the Bootstrap Package.
-The extension overwrites the main navigation template by adding a new partial root path like this:
-
-```
-page{
-    10{
-        partialRootPaths{
-            0 = EXT:bootstrap_package/Resources/Private/Partials/Page/
-            1 = EXT:bootstrap_package/Resources/Private/Partials/Page/
-            5 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/Page/ (new path by faicon)
-        }
-    }
-}
-```
-
-If you want to change the order of the paths, or the sequential number is already used by another extension, you can do that by adding a few lines in your TypoScript setup:
-
-```
-// Adding a new path (use any random number that is higher than the last existing one)
-page.10.partialRootPaths.765 = EXT:faicon/Resources/Private/BootstrapPackage/Partials/Page/
-
-// Alternative: Clear the entry and set a new path
-page.10.partialRootPaths.5 >
-page.10.partialRootPaths.5 = mypath/myfolder/
-
-```
+1. Via the site settings for the entire site
+2. Via a template record for specific subpages
 
 ### Example Usage in your Fluid-Templates
 
@@ -69,8 +44,8 @@ If you like my work and you want to ensure further development, please support i
 ## Support & Service
 
 If you have any issues with the extension, please let me know!
-Don't hesitate to send a message: https://simonkoehler.com/contact
+Don't hesitate to send a message: https://kohlercode.com/contact
 
-## Hire Simon Köhler as a TYPO3 or PHP Freelancer
+## Hire me as your TYPO3 or PHP Freelancer
 
-- https://simonkoehler.com
+- https://kohlercode.com/typo3-freelancer
