@@ -1,14 +1,14 @@
 {
     "name": "fullstackfreelancer/faicon",
     "type": "typo3-cms-extension",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Provides Font Awesome Icons for the TYPO3 page settings in the backend, and Icons for the Bootstrap Package in the frontend.",
-    "homepage": "https://simonkoehler.com/",
+    "homepage": "https://kohlercode.com/",
     "authors": [
         {
             "name": "Simon Köhler",
-            "email": "info@simonkoehler.com",
-            "homepage": "https://simonkoehler.com/",
+            "email": "simon@kohlercode.com",
+            "homepage": "https://kohlercode.com/",
             "role": "Developer"
         }
     ],
@@ -19,12 +19,12 @@
         }
     ],
     "support": {
-        "email": "info@simonkoehler.com",
-        "docs": "https://simon-koehler.com/"
+        "email": "simon@kohlercode.com",
+        "docs": "https://kohlercode.com/"
     },
     "license": "GPL-3.0-or-later",
     "require": {
-        "typo3/cms-core": "^11.4.0 || ^12.4"
+        "typo3/cms-core": "^11.4.0 || ^13.4"
     },
     "keywords": [
         "TYPO3",
