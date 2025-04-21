@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [3.0.0] - 2025-04-20
 - TYPO3 13.4 support
 - Font Awesome update to 6.7.2-web
+- Removed support for Bootstrap Package
 
 ## [2.0.0] - 2023-11-09
 - TYPO3 12.4 support
