@@ -2,7 +2,7 @@
 defined('TYPO3') or die();
 
 // Settings the file manually because of conflicts with old functionality and TYPO3 v12
-$items = 'typo3conf/ext/faicon/Resources/Public/Libs/fontawesome-free-6.5.1-web/metadata/icons.json';
+$items = 'typo3conf/ext/faicon/Resources/Public/Libs/fontawesome-free-6.7.2-web/metadata/icons.json';
 
 //Configure new fields:
 $fields = [
