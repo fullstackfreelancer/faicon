@@ -36,6 +36,6 @@
         "addon"
     ],
     "replace": {
-        "typo3-ter/faicon": "self.version"
-    }
+        "simonkoehler/ce-timeline": "self.version"
+    },
 }
