@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Font Awesome Icon',
-    'description' => 'Provides Font Awesome Icons for the TYPO3 page settings in the backend, and Icons for the Bootstrap Package in the frontend.',
+    'description' => 'Provides Font Awesome icons as a new select field in the page properties, which you can then use in your Fluid templates.',
     'category' => 'plugin',
     'author' => 'Simon Köhler',
     'author_email' => 'simon@kohlercode.com',
