@@ -1,7 +1,7 @@
 {
     "name": "fullstackfreelancer/faicon",
     "type": "typo3-cms-extension",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Provides Font Awesome Icons for the TYPO3 page settings in the backend, and Icons for the Bootstrap Package in the frontend.",
     "homepage": "https://kohlercode.com/",
     "authors": [
@@ -38,4 +38,9 @@
     "replace": {
         "simonkoehler/ce-timeline": "self.version"
     },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "faicon"
+        }
+    }
 }
